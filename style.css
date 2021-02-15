@@ -1,0 +1,205 @@
+.container-fluid {
+
+    padding-right: 0;
+    padding-left: 0;
+}
+
+table {
+
+    border-collapse: separate;
+}
+
+html, body {
+
+    background-color: black;
+    background-image: url("back.jpg");
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+
+    top: 0;
+    margin:0;
+    padding:0;
+    background-color: rgb(63, 7, 7);
+    opacity: 0.9;
+}
+
+nav ul {
+
+    width: 100%;
+}
+
+nav li {
+
+    width: 100%;
+}
+
+nav a {
+
+
+    background-color: rgb(202, 202, 202);
+    border: 4px solid rgb(45, 5, 5);
+    color: black;
+    border-radius: 25px;
+}
+
+nav a:hover {
+
+    background-color: gold;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 110%;
+    color:black;
+}
+
+.lr a {
+
+    background-color: rgb(132, 132, 132);
+}
+
+#section {
+
+    margin: 0;
+    padding: 0;
+    opacity: 0.5;
+    height: auto;
+	min-height: 80%;
+}
+
+article {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    background-color: rgb(153, 153, 153);
+    border-radius: 50px;
+    overflow: auto;
+    max-height: 97%;
+}
+
+article table {
+
+    margin-top: 30px;
+    font-family: arial, sans-serif;
+    width: 100%;
+    border-spacing: 20px;
+    font-size:150%;
+}
+
+article td {
+
+    border: 3px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+article th{
+
+    border: 5px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+#log {
+
+    border-radius: 50px;
+    background-color: red;
+    height: 99%;
+    width: 30%;
+	padding: 1%;
+    margin-left: 35%;
+    margin-top: 7%;
+	text-shadow: 1px -1px white;
+	font-size: 25px;
+}
+
+#rej {
+
+    border-radius: 50px;
+    background-color: red;
+    height: auto;
+    width: 30%;
+	padding: 1%;
+    margin-left: 35%;
+    margin-top: 5%;
+	margin-bottom: 5%;
+	text-shadow: 1px -1px white;
+	font-size: 25px;
+}
+
+#dodaj {
+	
+	text-shadow: 1px -1px white;
+	font-size: 25px;
+}
+
+form {
+
+    padding-top:10%;
+    padding-left:10%;
+    width: 90%;
+}
+
+input[type=text],[type=password], select, [type=number] {
+
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form input[type=submit] {
+
+    margin-top: 5%;
+    border-radius: 5px;
+	text-shadow: 1px -1px red;
+}
+
+aside {
+
+    margin: 0;
+    padding: 0;
+}
+
+#side1 {
+
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+	background-color: rgb(153, 153, 153);
+}
+
+#side2 {
+
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+	background-color: rgb(153, 153, 153);
+}
+
+
+footer {
+    
+    background-color: rgb(63, 7, 7);
+    opacity: 0.5;
+    right: 0;
+    left: 0;
+	bottom: 0;
+	padding: 1rem;
+    color: white;
+	clear: both;
+}
+
+
+
+.navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+}
+
+.error {
+		
+	color:white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
